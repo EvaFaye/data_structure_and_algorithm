@@ -1,6 +1,6 @@
-import { AbstractStack } from './LinearStructure.interface'
+import { LinearStructure } from './LinearStructure.interface'
 
-export class Stack<T> implements AbstractStack<T> {
+export default class Stack<T> implements LinearStructure.AbstractStack<T> {
   constructor() {}
   stack = new Array()
 

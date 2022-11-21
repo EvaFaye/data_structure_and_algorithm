@@ -1,4 +1,4 @@
-import { Stack } from './linear/Stack'
+import Stack from './linear/Stack'
 
 const parChecker = (symbolString: string): boolean => {
   const stack = new Stack<string>()
